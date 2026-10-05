@@ -12,9 +12,10 @@ st.set_page_config(
 )
 
 # Chaves de API vindas dos Secrets
-SUPABASE_URL = st.secrets.get("SUPABASE_URL")
-SUPABASE_KEY = st.secrets.get("SUPABASE_KEY")
-APP_URL = st.secrets.get("APP_URL", "https://share.streamlit.io")
+# Credenciais diretas
+SUPABASE_URL = "https://zjrvyijjsyvziifmnict.supabase.com"
+SUPABASE_KEY = "sb_publishable_tadrPK_VZxXET_97WCUTEA_OwBUwCUA"
+APP_URL = "https://pitstop-smiles.streamlit.app/"
 
 @st.cache_resource
 def get_supabase_client() -> Client:
