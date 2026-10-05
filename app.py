@@ -14,7 +14,7 @@ st.set_page_config(
 # Chaves de API vindas dos Secrets
 # Credenciais diretas
 SUPABASE_URL = "https://zjrvyijjsyvziifmnict.supabase.co"
-SUPABASE_KEY = "sb_publishable_tadrPK_VZxXET_97WCUTEA_OwBUwCUA"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpqcnZ5aWpqc3l2emlpZm1uaWN0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEyMTY0NjIsImV4cCI6MjEwNjc5MjQ2Mn0.dlmI5u5G-oYlKHE_zjSoSzvArw4e32EZvWFa4yIYr90"
 APP_URL = "https://pitstop-smiles.streamlit.app/"
 
 @st.cache_resource
