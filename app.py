@@ -13,7 +13,7 @@ st.set_page_config(
 
 # Chaves de API vindas dos Secrets
 # Credenciais diretas
-SUPABASE_URL = "https://zjrvyijjsyvziifmnict.supabase.com"
+SUPABASE_URL = "https://zjrvyijjsyvziifmnict.supabase.co"
 SUPABASE_KEY = "sb_publishable_tadrPK_VZxXET_97WCUTEA_OwBUwCUA"
 APP_URL = "https://pitstop-smiles.streamlit.app/"
 
